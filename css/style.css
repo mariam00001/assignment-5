@@ -1,0 +1,155 @@
+body{
+    background-color: #1E202B;
+}
+.navbar{
+    background-color: #1E202B;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    border:2px solid #029ED9;
+    border-radius: 30px;
+    color: #029ED9;
+}
+.nav-link{
+    transition: all 0.1s;
+}
+.nav-link:hover{
+    border:2px solid #029ED9;
+    border-radius: 30px;
+    color: #029ED9;
+}
+.logo{
+    cursor: pointer;
+}
+.logo i{
+    color: #029ED9;
+    font-size: 3rem;
+    padding-right:5px;
+}
+.navbar p{
+    font-size: 10px;
+}
+.home {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.loc{
+    background-color: #1E202B;
+    border-radius: 30px;
+    margin: 70px 0;
+}
+.btn1{
+    background-color: #009AD8;
+    border-radius: 50px;
+    top: 75px;
+    right: 5px;
+    bottom: 75px;
+}
+.loc2{
+    background-color: #1E202B;
+    border-radius: 30px;
+    margin: 70px 0;
+    width: 86%;
+}
+.btn2{
+    background-color: #009AD8;
+    border-radius: 50px;
+    top: 75px;
+    right: 122px;
+    bottom: 75px;
+}
+.info-day{
+    width: 33.333%;
+    background-color: #323544;
+}
+/* .all{
+    background-color: #323544;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+} */
+.info-day-center{
+    width: 33.333%;
+    background-color: #262936;
+}
+.location{
+    color: rgb(159, 158, 158);
+}
+.num{
+    font-size: 6rem;
+    font-weight: 700;
+}
+.icon{
+    font-size: 2rem;
+}
+.one{
+    color: #029ED9;
+}
+.two{
+    color: rgb(159, 158, 158);
+}
+.small-icon{
+    margin-right: 20px;
+    font-size: 1rem;
+    color: rgb(159, 158, 158);
+}
+.t-head{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(159, 158, 158);
+}
+.custom{
+    color: #029ED9;
+}
+p{
+    color: rgb(159, 158, 158);
+}
+.three{
+    color: yellow;
+}
+footer{
+    background-color: #323544;
+}
+.social{
+    background-color: #1E202B;
+    color:#029ED9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-right: 3px;
+}
+a{
+    text-decoration: none;
+}
+.social:hover{
+    background-color: #009AD8;
+    color: white;
+}
+
+  /* Styles for smaller screens */
+  @media screen and (min-width: 0) and (max-width: 768px) {
+    .info-day {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .btn2{
+        top: 75px;
+        right: 60px;
+        bottom: 75px;
+    }
+    .social{
+        margin-bottom: 1rem;
+    }
+  }
+  
+  /* Styles for medium screens */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .info-day {
+      width: 50%;
+      margin-bottom: 1rem;
+    }
+  }
+
